@@ -3,6 +3,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_aia">AI</string>
+    <string name="title_chat">Chats</string>
+    <string name="title_doc">Doctor</string>
     <string name="title_account">Account</string>
     <string name="title_notifications">Notifications</string>
     <string name="mobile_number">Mobile Number</string>
@@ -21,6 +23,10 @@
     <string name="week3">Week 3</string>
     <string name="week4">Week 4</string>
 
+    <string name="call">call daima</string>
+
+    <string name="input_placeholder">Write a message</string>
+
     <string name="namepro">Name:</string>
     <string name="namefire">Rohit Rai</string>
 
@@ -37,7 +43,10 @@
     <string name="passwordfire">pass</string>
 
     <string name="signin">Sign In</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
 
+    <string name="signout">SignOut</string>
     <string name="month1">Month 1</string>
     <string name="month2">Month 2</string>
     <string name="month3">Month 3</string>

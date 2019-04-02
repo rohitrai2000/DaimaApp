@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+
 public class Splash extends AppCompatActivity {
     private static int splash_time_out=1000;
 
@@ -25,7 +26,7 @@ public class Splash extends AppCompatActivity {
                     startActivity(homeIntent);
                     finish();
                 } else if (key_value == 2) {
-                    Intent homeIntent = new Intent(Splash.this, MainActivity.class);
+                    Intent homeIntent = new Intent(Splash.this, MainActivity2.class);
                     startActivity(homeIntent);
                     finish();
                 } else {

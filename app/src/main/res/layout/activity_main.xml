@@ -23,12 +23,16 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="280dp">
+            android:layout_height="@dimen/menuthick">
 
             <ImageButton
                 android:id="@+id/imageButton1"
-                android:layout_width="411dp"
-                android:layout_height="280dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/one" />
 
 
@@ -42,13 +46,12 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="280dp">
+            android:layout_height="@dimen/menuthick">
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/dietimageButton"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_marginEnd="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +69,7 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="280dp">
+            android:layout_height="@dimen/menuthick">
 
             <ImageButton
                 android:id="@+id/imageButton2"
@@ -96,5 +99,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:menu="@menu/navigation" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation_signin"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/windowBackground"
+        app:itemTextColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/navigation_signin" />
 
 </android.support.constraint.ConstraintLayout>

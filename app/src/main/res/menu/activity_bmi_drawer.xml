@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/diet"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Diet Plan" />
+        <item
+            android:id="@+id/exercise"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Exercises" />
+
+        <item
+            android:id="@+id/awareness"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Awareness" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Search" />
+        <item
+            android:id="@+id/Req"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Req. a nearby doctor" />
+        <item
+            android:id="@+id/Cal"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Calorie Tracker" />
+        <item
+            android:id="@+id/Bmi"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="BMI Calculator" />
+    </group>
+
+
+</menu>

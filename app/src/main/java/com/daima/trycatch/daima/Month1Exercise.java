@@ -21,7 +21,7 @@ public class Month1Exercise extends YouTubeBaseActivity implements YouTubePlayer
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_month1_exercise);
-
+//yififg
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(com.daima.trycatch.daima.Config.YOUTUBE_API_KEY, this);
     }

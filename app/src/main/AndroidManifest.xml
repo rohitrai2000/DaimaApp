@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.daima.trycatch.daima">
-      <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permision.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
-
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SignIn" />
         <activity
-            android:name=".DietSelect"
+            android:name=".Splash"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".SignUp" />
-        <activity android:name=".SignUpEmail" />
-        <activity android:name=".SignUpMobile" />
-
-
-        <!-- fcm -->
+        </activity> <!-- fcm -->
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -39,8 +39,11 @@
             </intent-filter>
         </service>
 
+        <activity android:name=".SignUp" />
+        <activity android:name=".SignUpEmail" />
+        <activity android:name=".SignUpMobile" />
         <activity android:name=".MonthSelect" />
-        <activity android:name=".Splash" />
+        <activity android:name=".Aware_gen_tri2" />
         <activity android:name=".Month1Exercise" />
         <activity android:name=".Month2Exercise" />
         <activity android:name=".Month3Exercise" />
@@ -54,7 +57,63 @@
         <activity android:name=".Tri_2" />
         <activity android:name=".Tri_3" />
         <activity android:name=".EditProfile" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".north_veg_Tri_1" />
+        <activity android:name=".north_nonveg_Tri_1" />
+        <activity android:name=".south_veg_Tri_1" />
+        <activity android:name=".south_nonveg_Tri_1" />
+        <activity android:name=".north_veg_Tri_2" />
+        <activity android:name=".north_nonveg_Tri_2" />
+        <activity android:name=".south_veg_Tri_2" />
+        <activity android:name=".south_nonveg_Tri_2" />
+        <activity android:name=".north_veg_Tri_3" />
+        <activity android:name=".north_nonveg_Tri_3" />
+        <activity android:name=".south_veg_Tri_3" />
+        <activity android:name=".south_nonveg_Tri_3" />
+        <activity android:name=".DietSelect" />
+        <activity android:name=".AI" />
+        <activity android:name=".Aware_gen_tri1" />
+        <activity android:name=".Aware_gen_tri3" />
+        <activity android:name=".Aware_med_tri1" />
+        <activity android:name=".Aware_med_tri2" />
+        <activity android:name=".Aware_med_tri3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MonthSelect2" />
+        <activity android:name=".Aware_gen_tri22" />
+        <activity android:name=".Month1Exercise2" />
+        <activity android:name=".Month2Exercise2" />
+        <activity android:name=".Month3Exercise2" />
+        <activity android:name=".Month4Exercise2" />
+        <activity android:name=".Month5Exercise2" />
+        <activity android:name=".Month6Exercise2" />
+        <activity android:name=".Month7Exercise2" />
+        <activity android:name=".Month8Exercise2" />
+        <activity android:name=".Month9Exercise2" />
+        <activity android:name=".Tri_12" />
+        <activity android:name=".Tri_22" />
+        <activity android:name=".Tri_32" />
+        <activity android:name=".EditProfile2" />
+        <activity android:name=".north_veg_Tri_12" />
+        <activity android:name=".north_nonveg_Tri_12" />
+        <activity android:name=".south_veg_Tri_12" />
+        <activity android:name=".south_nonveg_Tri_12" />
+        <activity android:name=".north_veg_Tri_22" />
+        <activity android:name=".north_nonveg_Tri_22" />
+        <activity android:name=".south_veg_Tri_22" />
+        <activity android:name=".south_nonveg_Tri_22" />
+        <activity android:name=".north_veg_Tri_32" />
+        <activity android:name=".north_nonveg_Tri_32" />
+        <activity android:name=".south_veg_Tri_32" />
+        <activity android:name=".south_nonveg_Tri_32" />
+        <activity android:name=".DietSelect2" />
+        <activity android:name=".AI2" />
+        <activity android:name=".Aware_gen_tri12" />
+        <activity android:name=".Aware_gen_tri32" />
+        <activity android:name=".Aware_med_tri12" />
+        <activity android:name=".Aware_med_tri22" />
+        <activity android:name=".Aware_med_tri32" />
+        <activity android:name=".Chat" />
+        <activity android:name=".Profile" />
     </application>
 
 </manifest>

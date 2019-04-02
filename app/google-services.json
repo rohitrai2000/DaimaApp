@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "1053413989463",
-    "firebase_url": "https://daimaa-4a594.firebaseio.com",
-    "project_id": "daimaa-4a594",
-    "storage_bucket": "daimaa-4a594.appspot.com"
+    "project_number": "1033656145077",
+    "firebase_url": "https://daimaa-508f0.firebaseio.com",
+    "project_id": "daimaa-508f0",
+    "storage_bucket": "daimaa-508f0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1053413989463:android:482eb268b0d88ff5",
+        "mobilesdk_app_id": "1:1033656145077:android:482eb268b0d88ff5",
         "android_client_info": {
           "package_name": "com.daima.trycatch.daima"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1053413989463-80hcu1mkskc9ag0ope6egfi7c6qchutb.apps.googleusercontent.com",
+          "client_id": "1033656145077-33ojq4ha6vni801l2dqe6fu780djaskk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.daima.trycatch.daima",
@@ -23,13 +23,21 @@
           }
         },
         {
-          "client_id": "1053413989463-gspk6fcsaviltm7p23vkfg59lejucl71.apps.googleusercontent.com",
+          "client_id": "1033656145077-b3489pfehi2oregdmci26golp0t6ocuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daima.trycatch.daima",
+            "certificate_hash": "a109ce928416bb1a3543deb843d00282f6aa1dfa"
+          }
+        },
+        {
+          "client_id": "1033656145077-vjjgomtvq1hrcuqhq1n3dm1qshe9909c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDFQio4Ey36f767Pma1kZeXEJSsS-aLKqY"
+          "current_key": "AIzaSyBTtyORnTYhxMJO_sq2lJc3Y4Ta0IhixF0"
         }
       ],
       "services": {
@@ -40,7 +48,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1053413989463-atsrjds8vtirko387lk1f5oa8e7choo1.apps.googleusercontent.com",
+              "client_id": "1033656145077-vjjgomtvq1hrcuqhq1n3dm1qshe9909c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
